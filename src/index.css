@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+.header{
+  background-color: rgba(0, 42, 255, 0.779);
+  color: rgb(255, 255, 255);
+  padding-left: 10px;
+  height: fit-content;
+}
+.header h4{
+  padding-bottom: 4px;
+}
+.cardWrapper{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  width: fit-content;
+  margin: auto;
+  padding: 15px;
+  border-radius: 20px;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.cardWrapper:hover{
+  scale: 1.02;
+}
+.cardHeader{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  border-radius: 60px;
+}
+span{
+  font-size: larger;
+  color: rgb(0, 242, 255);
+  font-weight: bolder;
+}
+
+.MAIN{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.MAIN Button{
+  margin-top: 10px;
+  padding: 5px;
+  width: 70px;
+  border-radius: 50px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  font-family: monospace;
+  cursor: pointer;
+}
+.MAIN Button:hover{
+  background-color: rgb(161, 121, 198);
+  
+}
